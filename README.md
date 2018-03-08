@@ -3,7 +3,7 @@ Quick Project Start - BOOTSTRAP, FONT-AWESOME, HAML, SASS
 
 
 # REQUIREMENTS
-  Ruby 2.0
-  Haml
-  Watchr
+  Ruby 2.0,
+  Haml,
+  Watchr,
   Obsvr
