@@ -8,7 +8,7 @@ Local Set-Up for Vagrant, HAML, SASS, and Observr.
   Ruby 2.0,
   Haml,
   Watchr,
-  Obsvr
+  Observr
 
 # Install Gems
   gem install haml, 
