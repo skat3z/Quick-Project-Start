@@ -37,13 +37,20 @@ Note: edit script.rb in the root folder to add other pages to auto compile.
 **Ruby 2.0+**
 - Gems Required:   
     - **Haml** 
-    > sudo gem install haml
-    
+    ```
+    sudo gem install haml
+    ```
     - **Observr**
-    > sudo gem install observr
+    ```
+    sudo gem install observr
+    ```
 
     - **Sass**
-    > sudo gem install sass --no-user-install'
-
+    ```
+    sudo gem install sass --no-user-install'
+    ```
+    
     - **Watchr**
-    > sudo gem install watchr
+    ```
+    sudo gem install watchr
+    ```
