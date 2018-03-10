@@ -3,7 +3,7 @@ A quick set-up for creating the front-end of a website.
 
 
 ## Guides
-Run "observ script.rb" when working in sass, or haml. I already have **Sass** running in my code editor, so i only use this command for auto compiling haml.
+Run ```observ script.rb``` when working in sass, or haml. I already have **Sass** running in my code editor, so i only use this command to auto compiling haml.
 
 For Sass you can edit script.rb and do this:
 ```
@@ -19,7 +19,7 @@ watch(".*\.haml$") { |x|
 ```
 
 
-Note: edit script.rb in the root folder to add other pages to auto compile.
+**Note: edit the "script.rb" file in the root folder to add other pages for auto compile.**
 
 ### Frameworks
 * Animate JS
