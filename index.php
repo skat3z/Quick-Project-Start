@@ -13,11 +13,9 @@
 <!-- Font Awesome -->
 <link href='https://use.fontawesome.com/releases/v5.0.2/css/all.css' rel='stylesheet'>
 <!-- Google Font -->
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro|Dosis|Oswald|Cairo' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=(ADD FONTS)' rel='stylesheet'>
 <!-- Custom CSS -->
 <link href='css/style.css' rel='stylesheet' type='text/css'>
-<!-- REMOVE ONCE PROJECT IS DONE -->
-<meta content='3' http-equiv='refresh'>
 </head>	
 
 <?php
