@@ -1,15 +1,32 @@
 # Quick Start Project
-My Quick Start Project - BOOTSTRAP, FONT-AWESOME, HAML, SASS, FONT AWESOME. 
+A quick set-up for creating the front-end of a website.
 
-# Description
-Local Set-Up for Vagrant, HAML, SASS, and Observr.
+## Instructions
 
-# REQUIREMENTS
-  Ruby 2.0,
-  Haml,
-  Watchr,
-  Observr
 
-# Install Gems
-  gem install haml, 
-  gem install observr 
+### Frameworks
+* Animate JS
+* Bootstrap v4
+* Font Awesome
+* Google Fonts
+* Jquery 3.2.1
+* Popper.js
+
+### Preprocessor
+* HAML
+* SASS
+
+### REQUIREMENTS
+**Ruby 2.0+**
+- Gems Required:   
+    - **Haml** 
+    > sudo gem install haml
+    
+    - **Observr**
+    > sudo gem install observr
+
+    - **Sass**
+    > sudo gem install sass --no-user-install'
+
+    - **Watchr**
+    > sudo gem install watchr
