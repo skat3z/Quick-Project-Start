@@ -56,8 +56,8 @@ sass(".*\.sass$") { |x|
     ```
 ### NGINX REWRITE RULES
 ```
-location / {
-  rewrite ^/$ /index.php?id=index;
-  try_files $uri $uri/ /index.php?id=$1;
-}
+    location  / {
+        rewrite ^/$ /index.php?id=index;
+        try_files $uri $uri/ /index.php?id=$uri;
+    }
 ```
