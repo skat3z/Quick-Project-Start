@@ -3,7 +3,12 @@
 <head>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
 <!-- PAGE SEO -->
-<title>Page Title</title>
+<title>
+<?php
+$page = $_GET['id'];
+echo "Bryan's Portfolio - ".$page;
+?>
+</title>
 <meta charset='utf-8'>
 <meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'>
 <!-- Bootstrap CSS library library -->
@@ -29,7 +34,7 @@
 	include 'header.html';
 	
 	// BODY
-	$page = $_GET['id'];
+	
 	include('haml-pages/'.$page.'.html');
 	
 	
