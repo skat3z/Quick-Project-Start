@@ -54,3 +54,10 @@ sass(".*\.sass$") { |x|
     ```
     sudo gem install watchr
     ```
+### NGINX REWRITE RULES
+```
+location / {
+  rewrite ^/$ /index.php?id=index;
+  try_files $uri $uri/ /index.php?id=$1;
+}
+```
