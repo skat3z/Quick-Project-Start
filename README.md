@@ -3,7 +3,7 @@ A quick set-up for creating the front-end of a website.
 
 
 ## Guides
-Run ```observ script.rb``` when working in sass, or haml. I already have **Sass** running in my code editor, so i only use this command to auto compiling haml.
+Run ```observ script.rb``` in terminal, when working in sass, or haml. I already have **Sass** running in my code editor, so i only use this command to auto compiling haml.
 
 For Sass you can edit script.rb and do this:
 ```
@@ -13,8 +13,8 @@ def compile_sass
 
 end
 
-watch(".*\.haml$") { |x|
-  compile_haml
+sass(".*\.sass$") { |x|
+  compile_sass
 }
 ```
 
