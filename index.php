@@ -5,8 +5,14 @@
 <!-- PAGE SEO -->
 <title>
 <?php
-$page = $_GET['id'];
-echo "Bryan's Portfolio - ".$page;
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+	
+	$page = $_GET['id'];
+	echo "Bryan's Portfolio - ".$page;
+
 ?>
 </title>
 <meta charset='utf-8'>
@@ -24,9 +30,6 @@ echo "Bryan's Portfolio - ".$page;
 </head>	
 
 <?php
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
 
 	echo '<body>';
 	
