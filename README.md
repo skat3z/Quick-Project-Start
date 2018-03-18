@@ -73,8 +73,8 @@ server {
     #either localhost, or your online server domain
     
     location / {
-        rewrite ^/$ /index.php?id=home;
-        try_files $uri $uri/ /index.php?id=$uri;
+        rewrite ^/$ /index.php?page=home;
+        try_files $uri $uri/ /index.php?page=$uri;
     }
 
     location ~ \.php$ {
