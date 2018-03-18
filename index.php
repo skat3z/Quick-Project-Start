@@ -11,7 +11,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 	
 	$page = $_GET['page'];
-	echo "Bryan's Portfolio - ".$page;
+	echo "My New Project - ".$page;
 
 ?>
 </title>
