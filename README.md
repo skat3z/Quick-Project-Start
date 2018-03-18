@@ -56,8 +56,29 @@ sass(".*\.sass$") { |x|
     ```
 ### NGINX REWRITE RULES
 ```
-    location  / {
+
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    root /var/www/html;
+    index index.php index.html index.htm index.nginx-debian.html;
+
+    server_name server_domain_or_IP;
+
+    location / {
         rewrite ^/$ /index.php?id=home;
         try_files $uri $uri/ /index.php?id=$uri;
     }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+
 ```
