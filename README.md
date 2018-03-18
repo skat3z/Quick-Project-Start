@@ -76,9 +76,10 @@ sudo apt-get install ruby2.4
 ### NGINX REWRITE RULES
   
   These are the nginx config rules I use with Vagrant
-- **Guide to Install NGINX/PHP/MYSQL on Ubuntu 16.04**
+- **Guide to Install NGINX/PHP/MYSQL on Ubuntu 16.04 & PHPMyAdmin**
 ```
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04
+https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/
 ```
 
 ```
