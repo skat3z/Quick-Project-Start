@@ -13,9 +13,9 @@ EXAMPLE:
 --------
 ### BODY PAGES ###
   %x[haml haml-pages/home.haml haml-pages/home.html]
-  ---
+  ### NEW LINE ###
   %x[haml haml-pages/NEW-PAGE.haml haml-pages/NEW-PAGE.html]
-  ---
+  ### NEW LINE ###
 ```
 
 For Sass you can edit script.rb and add this:
@@ -23,6 +23,7 @@ For Sass you can edit script.rb and add this:
 def compile_sass
 
 %x[sass FILENAME.sass OUTPUT-FILENAME.css]
+### REPEAT THIS LINE FOR MORE PAGES TO AUTO-COMPILE ###
 
 end
 
@@ -30,10 +31,6 @@ sass(".*\.sass$") { |x|
   compile_sass
 }
 ```
-
-
-
-**Note: edit the "script.rb" file in the root folder to add other pages for auto compile.**
 
 ### Frameworks
 * Animate JS
