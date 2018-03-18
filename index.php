@@ -10,7 +10,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 	
-	$page = $_GET['id'];
+	$page = $_GET['page'];
 	echo "Bryan's Portfolio - ".$page;
 
 ?>
