@@ -57,6 +57,10 @@ sass(".*\.sass$") { |x|
 ### NGINX REWRITE RULES
   
   These are the nginx config rules I use with Vagrant
+- **Guide to Install NGINX/PHP/MYSQL on Ubuntu**
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04
+```
 
 ```
 
