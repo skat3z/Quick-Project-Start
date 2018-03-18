@@ -5,6 +5,19 @@ A quick set-up for creating the front-end of a website.
 ## Guides
 Run ```observ script.rb``` in terminal, when working in sass, or haml. I already have **Sass** running in my code editor, so i only use this command to auto compile haml.
 
+Edit header.haml, footer.haml, and create new pages inside the haml-pages folder for the theme you are creating.
+
+To auto-compile the new pages edit the script.rb file and add your new pages
+```
+EXAMPLE:
+--------
+### BODY PAGES ###
+  %x[haml haml-pages/home.haml haml-pages/home.html]
+  ---
+  %x[haml haml-pages/NEW-PAGE.haml haml-pages/NEW-PAGE.html]
+  ---
+```
+
 For Sass you can edit script.rb and add this:
 ```
 def compile_sass
@@ -17,6 +30,7 @@ sass(".*\.sass$") { |x|
   compile_sass
 }
 ```
+
 
 
 **Note: edit the "script.rb" file in the root folder to add other pages for auto compile.**
