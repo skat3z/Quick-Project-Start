@@ -35,6 +35,12 @@ sass(".*\.sass$") { |x|
 
 ### REQUIREMENTS
 **Ruby 2.0+**
+Installing Ruby 2.4
+```
+sudo apt-add-repository ppa:brightbox/ruby-ng
+sudo apt-get update
+sudo apt-get install ruby2.4
+```
 - Gems Required:   
     - **Haml** 
     ```
@@ -57,7 +63,7 @@ sass(".*\.sass$") { |x|
 ### NGINX REWRITE RULES
   
   These are the nginx config rules I use with Vagrant
-- **Guide to Install NGINX/PHP/MYSQL on Ubuntu**
+- **Guide to Install NGINX/PHP/MYSQL on Ubuntu 16.04**
 ```
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04
 ```
