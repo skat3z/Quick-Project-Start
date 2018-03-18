@@ -23,7 +23,7 @@ For Sass you can edit script.rb and add this:
 def compile_sass
 
 %x[sass FILENAME.sass OUTPUT-FILENAME.css]
-### REPEAT THIS LINE FOR MORE PAGES TO AUTO-COMPILE ###
+### REPEAT LINE ABOVE FOR MORE PAGES TO AUTO-COMPILE ###
 
 end
 
