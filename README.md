@@ -55,17 +55,23 @@ sass(".*\.sass$") { |x|
     sudo gem install watchr
     ```
 ### NGINX REWRITE RULES
+  
+  These are the nginx config rules I use with Vagrant
+
 ```
 
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
 
-    root /var/www/html;
-    index index.php index.html index.htm index.nginx-debian.html;
-
+    root /vagrant/html;
+    #change to your root folder
+    
+    index index.php index.html index.htm index.nginx-debian.html;      
+  
     server_name server_domain_or_IP;
-
+    #either localhost, or your online server domain
+    
     location / {
         rewrite ^/$ /index.php?id=home;
         try_files $uri $uri/ /index.php?id=$uri;
