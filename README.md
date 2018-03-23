@@ -3,7 +3,7 @@ A quick set-up for creating the front-end of a website.
 
 
 ## Guides
-Run ```observ script.rb``` in terminal, when working in sass, or haml. I already have **Sass** running in my code editor, so i only use this command to auto compile haml.
+Run ```observr script.rb``` in terminal, when working in sass, or haml. I already have **Sass** running in my code editor, so i only use this command to auto compile haml.
 
 Edit index.php (to change <title>), header.haml, footer.haml, and create new pages inside the haml-pages folder for the theme you are creating.
 
