@@ -80,6 +80,7 @@ sudo apt-get install ruby2.4
 ```
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04
 https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/
+https://websiteforstudents.com/setup-nginx-php-7-1-ubuntu-16-04-17-04/
 ```
 
 ```
